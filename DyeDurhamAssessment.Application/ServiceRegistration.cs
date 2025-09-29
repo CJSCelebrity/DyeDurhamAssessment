@@ -10,7 +10,7 @@ public static class ServiceRegistration
 {
     public static IServiceCollection AddApplicationServices(this IServiceCollection services, IConfiguration configuration)
     {
-        services.AddTransient<FileReaderFactory>();
+        services.AddTransient<IFileReaderFactory, FileReaderFactory>();
         services.AddTransient<IFileProcessingService, FileProcessingService>();
         services.AddHostedService<NameSorterHostedService>();
         
