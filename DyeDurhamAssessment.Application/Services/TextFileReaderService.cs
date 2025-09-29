@@ -2,7 +2,7 @@ using DyeDurhamAssessment.Application.Interfaces;
 
 namespace DyeDurhamAssessment.Application.Services;
 
-public class TextFileReader : IFileReader
+public class TextFileReaderService : IFileReader
 {
     public List<string> ReadFile(string filePath)
     {

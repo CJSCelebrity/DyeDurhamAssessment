@@ -3,7 +3,7 @@ using DyeDurhamAssessment.Application.Interfaces;
 
 namespace DyeDurhamAssessment.Application.Services;
 
-public class FileProcessingService(FileReaderFactory factory) : IFileProcessingService
+public class FileProcessingService(IFileReaderFactory factory) : IFileProcessingService
 {
     public List<string> ProcessFile(string filePath)
     {

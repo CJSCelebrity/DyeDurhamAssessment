@@ -3,18 +3,13 @@ using DyeDurhamAssessment.Application.Services;
 
 namespace DyeDurhamAssessment.Application.Factories;
 
-public class FileReaderFactory
+public class FileReaderFactory : IFileReaderFactory
 {
-    private readonly List<IFileReader> _readers;
-
-    public FileReaderFactory()
+    private readonly List<IFileReader> _readers = new()
     {
-        _readers = new List<IFileReader>
-        {
-            new TextFileReader()
-        };
-    }
-    
+        new TextFileReaderService()
+    };
+
     public IFileReader CreateReader(string filePath)
     {
         var extension = Path.GetExtension(filePath);
