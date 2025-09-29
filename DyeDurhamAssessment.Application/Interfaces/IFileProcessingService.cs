@@ -4,5 +4,5 @@ public interface IFileProcessingService
 {
     List<string> ProcessFile(string filePath);
     void PrintFileContentToConsole(List<string> results);
-    void SaveFileContent();
+    Task SaveFileContentAsync(string filePath, List<string> results);
 }

@@ -16,4 +16,8 @@
       <ProjectReference Include="..\DyeDurhamAssessment.Application\DyeDurhamAssessment.Application.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Output\" />
+    </ItemGroup>
+
 </Project>

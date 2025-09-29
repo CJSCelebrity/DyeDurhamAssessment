@@ -21,8 +21,12 @@ public class FileProcessingService(FileReaderFactory factory) : IFileProcessingS
         Console.ResetColor();
     }
 
-    public void SaveFileContent()
+    public async Task SaveFileContentAsync(string filePath, List<string> results)
     {
-        throw new NotImplementedException();
+        await using var outputFile = new StreamWriter(Path.Combine(filePath, "sorted-names-list.txt"));
+        foreach (var item in results)
+        {
+            await outputFile.WriteAsync($"{item}\n");
+        }
     }
 }
