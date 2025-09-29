@@ -28,4 +28,4 @@ jobs:
         run: dotnet test --verbosity normal
 
       - name: Run application
-        run: dotnet run --project DyeDurhamAssessment/DyeDurhamAssessment.Core/DyeDurhamAssessment.Core.csproj --no-build
+        run: dotnet run --project DyeDurhamAssessment/DyeDurhamAssessment.Core/DyeDurhamAssessment.Core.csproj
