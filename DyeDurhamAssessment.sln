@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurhamAssessment.Core", "DyeDurhamAssessment.Core\DyeDurhamAssessment.Core.csproj", "{342799B9-76FC-46BC-81D2-BF8AA38A2DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurhamAssessment.Tests", "DyeDurhamAssessment.Tests\DyeDurhamAssessment.Tests.csproj", "{F407441D-F430-4BFF-BEB8-9F9C26B30C3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurhamAssessment.Domain", "DyeDurhamAssessment.Domain\DyeDurhamAssessment.Domain.csproj", "{E5616942-3E15-4836-8C5D-D47EECFDBB25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{342799B9-76FC-46BC-81D2-BF8AA38A2DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342799B9-76FC-46BC-81D2-BF8AA38A2DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342799B9-76FC-46BC-81D2-BF8AA38A2DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342799B9-76FC-46BC-81D2-BF8AA38A2DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F407441D-F430-4BFF-BEB8-9F9C26B30C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F407441D-F430-4BFF-BEB8-9F9C26B30C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F407441D-F430-4BFF-BEB8-9F9C26B30C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F407441D-F430-4BFF-BEB8-9F9C26B30C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5616942-3E15-4836-8C5D-D47EECFDBB25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5616942-3E15-4836-8C5D-D47EECFDBB25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5616942-3E15-4836-8C5D-D47EECFDBB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5616942-3E15-4836-8C5D-D47EECFDBB25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
