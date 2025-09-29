@@ -5,9 +5,24 @@ namespace DyeDurhamAssessment.Application.Services;
 
 public class FileProcessingService(FileReaderFactory factory) : IFileProcessingService
 {
-    public List<List<string>> ProcessFile(string filePath)
+    public List<string> ProcessFile(string filePath)
     {
         var reader = factory.CreateReader(filePath);
         return reader.ReadFile(filePath);
+    }
+
+    public void PrintFileContentToConsole(List<string> results)
+    {
+        foreach (var item in results)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(item);
+        }
+        Console.ResetColor();
+    }
+
+    public void SaveFileContent()
+    {
+        throw new NotImplementedException();
     }
 }

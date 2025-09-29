@@ -8,26 +8,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b49c66b-c6d7-4c76-bef6-b95519e28eb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/DyeDurhamAssessment.Application.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Factories/FileReaderFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Interfaces/IFileProcessingService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Interfaces/IFileReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/FileProcessingService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/NameSorterHostedService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/TextFileReader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DyeDurhamAssessment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DyeDurhamAssessment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Core/DyeDurhamAssessment.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Core/DyeDurhamAssessment.Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Core/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Core/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Domain/DyeDurhamAssessment.Domain.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Domain/LoggingConfiguration/SerilogConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/LoggingConfiguration/SerilogConfiguration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Domain/ServiceRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/ServiceRegistration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Tests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Tests/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Application/DyeDurhamAssessment.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/DyeDurhamAssessment.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Interfaces/IFileProcessingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Interfaces/IFileProcessingService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Interfaces/IFileReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Interfaces/IFileReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/FileProcessingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/FileProcessingService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/NameSorterHostedService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/NameSorterHostedService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/TextFileReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/TextFileReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Core/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Core/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +51,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8b3941da12e33bbbd3c947c3ecf16ad6e73a9ebef3f83ed2b886b46e2cd7322/ServiceCollectionHostedServiceExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/NameSorterHostedService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DyeDurhamAssessment.Tests/GlobalUsings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lenovo/RiderProjects/DyeDurhamAssessment/DyeDurhamAssessment.Tests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -116,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1759137138950</updated>
       <workItem from="1759137150965" duration="7066000" />
-      <workItem from="1759154879284" duration="2336000" />
+      <workItem from="1759154879284" duration="8687000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -134,7 +131,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759140486036</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Renamed the Domain project to be Application. This is inline with the architectural decision. Added in a File Reading factory to determine the right service to use when processing the file. Added in a HostedService to run in the background whilst allowing the console app to have Dependency Injection">
+      <option name="closed" value="true" />
+      <created>1759157630273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759157630273</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Removed the comment from the UnitTest1.cs file">
+      <option name="closed" value="true" />
+      <created>1759157707640</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759157707640</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +159,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added in the missing proj files to the solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added in the missing proj files to the solution" />
+    <MESSAGE value="Renamed the Domain project to be Application. This is inline with the architectural decision. Added in a File Reading factory to determine the right service to use when processing the file. Added in a HostedService to run in the background whilst allowing the console app to have Dependency Injection" />
+    <MESSAGE value="Removed the comment from the UnitTest1.cs file" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -174,7 +189,33 @@
               <option value="1166" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/FileProcessingService.cs</url>
+          <line>8</line>
+          <properties documentPath="C:\Users\lenovo\RiderProjects\DyeDurhamAssessment\DyeDurhamAssessment.Application\Services\FileProcessingService.cs" containingFunctionPresentation="Method 'ProcessFile'">
+            <startOffsets>
+              <option value="299" />
+            </startOffsets>
+            <endOffsets>
+              <option value="300" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/TextFileReader.cs</url>
+          <line>7</line>
+          <properties documentPath="C:\Users\lenovo\RiderProjects\DyeDurhamAssessment\DyeDurhamAssessment.Application\Services\TextFileReader.cs" containingFunctionPresentation="Method 'ReadFile'">
+            <startOffsets>
+              <option value="202" />
+            </startOffsets>
+            <endOffsets>
+              <option value="203" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

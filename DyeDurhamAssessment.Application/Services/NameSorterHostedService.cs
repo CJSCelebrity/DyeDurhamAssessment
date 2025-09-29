@@ -36,18 +36,24 @@ public class NameSorterHostedService(
     private Task ExecuteAsync(CancellationToken cancellationToken)
     {
         logger.LogInformation("Beginning name sorting");
-        
-        var filePath = string.Empty;
+
+        var filePath = GetFilePath();
         var results = fileProcessingService.ProcessFile(filePath);
-        
-        //TODO: implement file save logic here for sorted results. Move logic to the fileProcessingService
+        fileProcessingService.PrintFileContentToConsole(results);
         
         return Task.CompletedTask;
     }
 
+    private string GetFilePath()
+    {
+        var projectRoot = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)?.Parent?.Parent?.Parent?.FullName;
+        var assetsPath = Path.Combine(projectRoot, "Assets");
+        return Path.Combine(assetsPath, "unsorted-names-list.txt");
+    }
+
     public Task StopAsync(CancellationToken cancellationToken)
     {
-        logger.LogInformation("Termination name sorting");
+        logger.LogInformation("Stopping application");
         return Task.CompletedTask;
     }
 }
