@@ -13,7 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DyeDurhamAssessment.Domain\DyeDurhamAssessment.Domain.csproj" />
+      <ProjectReference Include="..\DyeDurhamAssessment.Application\DyeDurhamAssessment.Application.csproj" />
     </ItemGroup>
 
 </Project>

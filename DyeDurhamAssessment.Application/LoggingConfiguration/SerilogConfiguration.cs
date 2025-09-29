@@ -2,7 +2,7 @@ using Microsoft.Extensions.Configuration;
 using Serilog;
 using Serilog.Events;
 
-namespace DyeDurhamAssessment.Domain.LoggingConfiguration;
+namespace DyeDurhamAssessment.Application.LoggingConfiguration;
 
 public static class SerilogConfiguration
 {

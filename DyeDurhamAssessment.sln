@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurhamAssessment.Core", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurhamAssessment.Tests", "DyeDurhamAssessment.Tests\DyeDurhamAssessment.Tests.csproj", "{F407441D-F430-4BFF-BEB8-9F9C26B30C3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurhamAssessment.Domain", "DyeDurhamAssessment.Domain\DyeDurhamAssessment.Domain.csproj", "{E5616942-3E15-4836-8C5D-D47EECFDBB25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurhamAssessment.Application", "DyeDurhamAssessment.Application\DyeDurhamAssessment.Application.csproj", "{E5616942-3E15-4836-8C5D-D47EECFDBB25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

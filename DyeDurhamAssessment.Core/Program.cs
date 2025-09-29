@@ -4,8 +4,8 @@ Build a name sorter. Given a set of names, order that set first by last name, th
 and may have up to 3 given names.
  */
 
-using DyeDurhamAssessment.Domain;
-using DyeDurhamAssessment.Domain.LoggingConfiguration;
+using DyeDurhamAssessment.Application;
+using DyeDurhamAssessment.Application.LoggingConfiguration;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Serilog;
@@ -25,8 +25,6 @@ class Program
             var host = CreateHostBuilder(args, configuration).Build();
             
             await host.RunAsync();
-            
-            Console.WriteLine("Hello, World!");
         }
         catch (Exception e)
         {
@@ -57,6 +55,6 @@ class Program
             .UseSerilog()
             .ConfigureServices((context, services) =>
             {
-                services.AddDomainServices(configuration);
+                services.AddApplicationServices(configuration);
             });
 }
