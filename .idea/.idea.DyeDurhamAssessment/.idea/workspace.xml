@@ -8,15 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b49c66b-c6d7-4c76-bef6-b95519e28eb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Interfaces/IFileReaderFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Tests/Builders/FileProcessingServiceTestBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Tests/Services/FileProcessingServiceTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Tests/Builders/TextFileReaderServiceTestBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Tests/Services/TextFileReaderServiceTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DyeDurhamAssessment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DyeDurhamAssessment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Factories/FileReaderFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Factories/FileReaderFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/FileProcessingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/FileProcessingService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Tests/DyeDurhamAssessment.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Tests/DyeDurhamAssessment.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Tests/GlobalUsings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DyeDurhamAssessment.Tests/GlobalUsings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DyeDurhamAssessment.Tests/UnitTest1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +46,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8b3941da12e33bbbd3c947c3ecf16ad6e73a9ebef3f83ed2b886b46e2cd7322/ServiceCollectionHostedServiceExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DyeDurhamAssessment.Application/Interfaces/IFileReaderFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/lenovo/RiderProjects/DyeDurhamAssessment/DyeDurhamAssessment.Application/ServiceRegistration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/NameSorterHostedService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DyeDurhamAssessment.Tests/Builders/FileProcessingServiceTestBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DyeDurhamAssessment.Tests/Builders/TextFileReaderServiceTestBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DyeDurhamAssessment.Tests/GlobalUsings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DyeDurhamAssessment.Tests/Services/FileProcessingServiceTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DyeDurhamAssessment.Tests/Services/TextFileReaderServiceTests.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -117,7 +115,8 @@
       <updated>1759137138950</updated>
       <workItem from="1759137150965" duration="7066000" />
       <workItem from="1759154879284" duration="11185000" />
-      <workItem from="1759179522549" duration="2211000" />
+      <workItem from="1759179522549" duration="6819000" />
+      <workItem from="1759186999598" duration="3783000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -167,7 +166,87 @@
       <option name="project" value="LOCAL" />
       <updated>1759179190481</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added in unit tests for the FileProcessingService.cs class">
+      <option name="closed" value="true" />
+      <created>1759182552051</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759182552051</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added in the dotnet.yml for Github Actions">
+      <option name="closed" value="true" />
+      <created>1759184354579</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759184354579</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated the test build step of the dotnet.yml">
+      <option name="closed" value="true" />
+      <created>1759184638684</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1759184638684</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated the run application build step of the dotnet.yml file">
+      <option name="closed" value="true" />
+      <created>1759185085904</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1759185085904</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated the run application build step of the dotnet.yml to point to the Core project">
+      <option name="closed" value="true" />
+      <created>1759185233485</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1759185233485</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Changed the forward slashes to backslashes in the run application build step">
+      <option name="closed" value="true" />
+      <created>1759185543158</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1759185543158</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Removed the --no-build annotation">
+      <option name="closed" value="true" />
+      <created>1759186468585</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1759186468585</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated the ServiceRegistration.cs to include the interface and concrete class for the FileReaderFactory">
+      <option name="closed" value="true" />
+      <created>1759187385814</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1759187385814</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated the dotnet.yml file">
+      <option name="closed" value="true" />
+      <created>1759187757350</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1759187757350</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added in the base of the README.md file">
+      <option name="closed" value="true" />
+      <created>1759188655191</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1759188655191</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +262,17 @@
     <MESSAGE value="Removed the comment from the UnitTest1.cs file" />
     <MESSAGE value="Updated the project to include the Assets folder when built. Added in logic to sort the names based on the criteria of the assessment. Added in logic to print out the names onto the console" />
     <MESSAGE value="Added in logic in the FileProcessingService.cs to write the ordered names to a text file in the following folder titled output" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added in logic in the FileProcessingService.cs to write the ordered names to a text file in the following folder titled output" />
+    <MESSAGE value="Added in unit tests for the FileProcessingService.cs class" />
+    <MESSAGE value="Added in the dotnet.yml for Github Actions" />
+    <MESSAGE value="Updated the test build step of the dotnet.yml" />
+    <MESSAGE value="Updated the run application build step of the dotnet.yml file" />
+    <MESSAGE value="Updated the run application build step of the dotnet.yml to point to the Core project" />
+    <MESSAGE value="Changed the forward slashes to backslashes in the run application build step" />
+    <MESSAGE value="Removed the --no-build annotation" />
+    <MESSAGE value="Updated the ServiceRegistration.cs to include the interface and concrete class for the FileReaderFactory" />
+    <MESSAGE value="Updated the dotnet.yml file" />
+    <MESSAGE value="Added in the base of the README.md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added in the base of the README.md file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -227,14 +316,14 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/TextFileReader.cs</url>
+          <url>file://$PROJECT_DIR$/DyeDurhamAssessment.Application/Services/TextFileReaderService.cs</url>
           <line>7</line>
           <properties documentPath="C:\Users\lenovo\RiderProjects\DyeDurhamAssessment\DyeDurhamAssessment.Application\Services\TextFileReader.cs" containingFunctionPresentation="Method 'ReadFile'">
             <startOffsets>
-              <option value="202" />
+              <option value="209" />
             </startOffsets>
             <endOffsets>
-              <option value="203" />
+              <option value="210" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />
