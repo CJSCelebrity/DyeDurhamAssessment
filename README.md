@@ -36,6 +36,19 @@ The log file can be found in the Debug folder of the application. The path would
 C:\YourUser\YourProjectsYouClonedTheProjectTo\DyeDurhamAssessment\DyeDurhamAssessment.Core\bin\Debug\net9.0\logs
 ```
 
+## Contribution
+
+If you need to add a new file type to be read into the application, you can create a new reader service in the services folder of the ```DyeDurhamAssessment.Application``` project.
+You can then add this reader service into the ```FileReaderFactory``` class. The following code is an example of what it may look like
+
+```
+private readonly List<IFileReader> _readers = new()
+{
+    new TextFileReaderService(),
+    new YourFileReaderService()
+};
+```
+
 ## Future Improvements
 
 Currently the file only allows for ````.txt```` files to be read into it. There are future plans to include the following extensions ``.xls`` , ``.xlsx`` and ``.csv``
