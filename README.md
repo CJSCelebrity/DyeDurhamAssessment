@@ -4,6 +4,9 @@
 The following application is built within the dotnet 9 environment and it is a console applicatiom. This application takes in a text file that has unsorted names
 and creates an output file titled sorted-names-list.txt that is stored in the Output folder of the project. ***It uses a simple LINQ statement to order that set first by last name, then by any given names the person may have.***
 
+The application also makes use of ***Github Actions*** to validate the unit tests and the application integrity when a new commit is created or a pull request is created.
+You will also be able to see the output of the ordered names of the application in the ***Run Application*** build step
+
 ## Prerequisites
 
 The application makes use of .NET 9. Due to this, you may need to install the latest dotnet SDK. You can download it from the official site here - https://dotnet.microsoft.com/en-us/download/dotnet/9.0
